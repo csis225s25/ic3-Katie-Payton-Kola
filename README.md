@@ -7,6 +7,12 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 Katie, Payton, Jaden, and Kola
 
 **Changes to code**
+Change from 
+    
+
+  to:
+    
 
 
 **What caused it to stop working?**
+Uses unchecked or unsaved operations
