@@ -6,16 +6,19 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 Names: Katie, Payton, Jaden, and Kola
 
-**Changes to code**\
-Change from: \
-    static JComboBox cBox1;\
+**Changes to code**
+Change from: 
+    static JComboBox cBox1;
+    
     cBox1 = new JComboBox(s1);
 
-  to:\
-   static JComboBox<String> cBox1;\
+  to:
+   static JComboBox<String> cBox1;
+   
    cBox1 = new JComboBox<String>(s1);
 
 
-**What caused it to stop working?**\
-Uses unchecked or unsaved operations\
+**What caused it to stop working?**
+Uses unchecked or unsaved operations
+
 The compiler can't check if we are using the JComboBox with the right type, so we need to state the type of object we are storing in the collection.
