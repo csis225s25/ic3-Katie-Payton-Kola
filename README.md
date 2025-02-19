@@ -22,5 +22,3 @@ Change from:
 Uses unchecked or unsaved operations
 
 The compiler can't check if we are using the JComboBox with the right type, so we need to state the type of object we are storing in the collection.
-
-Test Commit
