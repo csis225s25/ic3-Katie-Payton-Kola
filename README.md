@@ -8,14 +8,16 @@ Names: Katie, Payton, Jaden, and Kola
 
 **Changes to code**
 Change from: 
-    static JComboBox cBox1;
+
+        static JComboBox cBox1;
     
-    cBox1 = new JComboBox(s1);
+        cBox1 = new JComboBox(s1);
 
   to:
-   static JComboBox<String> cBox1;
+  
+       static JComboBox<String> cBox1;
    
-   cBox1 = new JComboBox<String>(s1);
+       cBox1 = new JComboBox<String>(s1);
 
 
 **What caused it to stop working?**
